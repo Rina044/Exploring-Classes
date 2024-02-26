@@ -6,4 +6,8 @@
     <RootNamespace>Exploring_classes</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\JobTitle\JobTitle.csproj" />
+  </ItemGroup>
+
 </Project>
