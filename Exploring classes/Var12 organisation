@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace trpoo
+{
+    public class Employee
+    {
+        private string Name;
+        private int Age;
+        private string Position;
+
+        public Employee(string name, int age, string position)
+        {
+            Name = name;
+            Age = age;
+            Position = position;
+        }
+
+        public void PrintInfo()
+        {
+            Console.WriteLine($"Name: {Name}, Age: {Age}, Position: {Position}");
+        }
+    }
+
+    class Program
+    {
+        static void Main()
+        {
+            Employee emp = new Employee("John Doe", 30, "Manager");
+            emp.PrintInfo();
+        }
+    }
+}
